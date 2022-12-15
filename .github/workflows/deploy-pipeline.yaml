@@ -75,7 +75,7 @@ jobs:
           asset_content_type: application/zip
           
   documentation:
-    runs-on: ubunti-latest
+    runs-on: ubuntu-latest
     needs: lint
     steps:
     - name: checkout code
